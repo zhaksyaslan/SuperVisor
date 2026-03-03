@@ -32,26 +32,18 @@ Credentials are stored locally via JetBrains Password Safe.
 
 ## Screenshots
 
-### Connection and Process Overview
 ![SuperVisor dashboard](./assets/dashboard-overview.png)
 
-### Process and Incident Details
 ![SuperVisor incident details](./assets/incident-details.png)
 
-### Actions and Workflow
 ![SuperVisor alert workflows](./assets/alert-workflows.png)
 
-### Operational Control
 ![SuperVisor operations control](./assets/ops-control.png)
 
 ## Documentation
 
-- [Docs (Live)](https://get-supervisor.netlify.app/docs)
-- [Local Docs Page](../docs.html)
+- [Docs](https://get-supervisor.netlify.app/docs)
 
-## Support
-
-- `goldentap.kz@gmail.com`
 
 ## Legal
 
