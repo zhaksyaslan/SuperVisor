@@ -1,50 +1,60 @@
 # End User License Agreement (EULA)
 
-**Last Updated:** March 3, 2026
+Last updated: 2026-03-03
 
-This End User License Agreement ("Agreement") is a legal agreement between you ("User") and SuperVisor ("Licensor") for the SuperVisor plugin ("Software"). By installing, copying, or using the Software, you agree to be bound by this Agreement.
+This End User License Agreement ("Agreement") governs your use of the SuperVisor plugin ("Plugin"). By installing or using the Plugin, you agree to these terms.
 
 ## 1. License Grant
 
-Subject to your compliance with this Agreement, Licensor grants you a limited, non-exclusive, non-transferable, revocable license to install and use the Software for internal business or personal use.
+Subject to this Agreement, SuperVisor grants you a limited, non-exclusive, non-transferable, revocable license to install and use the Plugin for personal or commercial development and operations workflows.
 
-## 2. Restrictions
+## 2. Pricing and Eligibility
+
+- Standard license: USD 3 per user per month.
+- Student license: free of charge for eligible students.
+
+Student free access may require valid proof of current student status (for example, an academic email or student document).
+
+## 3. Permitted Use
+
+You may:
+
+- Use the Plugin to connect to your Supervisor instances and manage worker processes in your own projects and internal company workflows.
+- Use Plugin features such as process listing, start/stop/restart actions, and log viewing (STDOUT/STDERR) within supported JetBrains IDEs.
+
+## 4. Restrictions
 
 You may not:
 
-- Reverse engineer, decompile, or disassemble the Software, except where permitted by applicable law.
-- Modify, adapt, or create derivative works of the Software except as expressly authorized.
-- Rent, lease, sublicense, sell, or redistribute the Software without written permission.
-- Remove or alter any copyright, trademark, or proprietary notices.
+- Redistribute, resell, sublicense, rent, lease, or share the Plugin as a standalone product.
+- Reverse engineer, decompile, or modify the Plugin except where such rights cannot be restricted by applicable law.
+- Remove copyright or proprietary notices.
 
-## 3. Ownership
+## 5. Ownership
 
-The Software is licensed, not sold. All rights, title, and interest in the Software, including all intellectual property rights, remain the property of Licensor.
+All rights, title, and interest in and to the Plugin remain with SuperVisor and its licensors. This Agreement does not transfer ownership.
 
-## 4. Updates and Changes
+## 6. Updates and Changes
 
-Licensor may provide updates, patches, or new versions at its discretion. Updates may be subject to additional terms.
+SuperVisor may release updates, fixes, and new versions at its discretion. Pricing, student eligibility rules, and product functionality may be updated in future releases.
 
-## 5. Third-Party Services
+## 7. Disclaimer of Warranties
 
-Some Software features may integrate with third-party services (for example Slack, Telegram, webhooks, cloud monitoring providers). Use of third-party services is governed by their respective terms and privacy policies.
+The Plugin is provided "as is" and "as available," without warranties of any kind, express or implied, including merchantability, fitness for a particular purpose, and non-infringement.
 
-## 6. Disclaimer of Warranties
+## 8. Limitation of Liability
 
-THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+To the maximum extent permitted by law, SuperVisor is not liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of data, profits, or business interruption arising from use of the Plugin.
 
-## 7. Limitation of Liability
+## 9. Termination
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR LOSS OF PROFITS, DATA, OR BUSINESS INTERRUPTION, ARISING OUT OF OR RELATED TO USE OF THE SOFTWARE.
+This Agreement is effective until terminated. Your rights under this Agreement terminate automatically if you violate these terms.
 
-## 8. Termination
+## 10. Governing Law
 
-This Agreement is effective until terminated. Licensor may terminate this Agreement if you breach its terms. Upon termination, you must stop using and delete all copies of the Software.
+This Agreement is governed by applicable law in the jurisdiction of the licensor, unless otherwise required by mandatory consumer law.
 
-## 9. Governing Law
+## 11. Contact
 
-This Agreement is governed by applicable laws in the jurisdiction where Licensor is established, unless otherwise required by mandatory consumer protection laws.
-
-## 10. Contact
-
-For licensing questions, contact: **legal@supervisor-plugin.com**
+For product information and documentation, visit:
+[https://get-supervisor.netlify.app/docs](https://get-supervisor.netlify.app/docs)
