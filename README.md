@@ -1,58 +1,57 @@
 # SuperVisor Plugin
 
-SuperVisor is a monitoring and incident-orchestration plugin for web applications and services.
+SuperVisor is a JetBrains IDE plugin for managing Linux Supervisor processes without leaving the editor.
 
-## What It Does
+## Overview
 
-- Monitors HTTP endpoints, queues, and service health in real time
-- Tracks latency, errors, and incident signals in one dashboard
-- Sends alerts to Slack, Telegram, and webhooks
-- Supports automated recovery actions on incident triggers
+SuperVisor connects to your Supervisor XML-RPC endpoint and gives you a single UI to monitor workers, run actions, and inspect logs.
 
-## Installation
+## Features
 
-```bash
-npm install supervisor-plugin
-# or
-pnpm add supervisor-plugin
-```
+- Multiple Supervisor connections in one tool window
+- Process list grouped by worker group with search/filter flow
+- One-click actions: start, stop, restart (including bulk/group flows)
+- STDOUT and STDERR log viewer with live tail and older chunk loading
+- Clear logs and copy worker metadata from context actions
 
-## Quick Start
+## Usage Flow
 
-```ts
-import { createSupervisor } from 'supervisor-plugin';
+1. Open `SuperVisor` tool window in your JetBrains IDE.
+2. Add a connection (`host`, `port`, optional `username/password`).
+3. Select a process and run actions (`start`, `stop`, `restart`).
+4. Open logs in tabs and follow output in real time.
 
-const sv = createSupervisor({
-  project: 'my-app',
-  token: process.env.SUPERVISOR_TOKEN,
-});
+## Configuration
 
-sv.monitorHttp('/health');
-sv.monitorQueue('jobs');
-```
+- `processRefreshIntervalSec` (default: `5`)
+- `logPollingIntervalSec` (default: `2`)
+- `maxLogBufferChars` (default: `200000`)
+- `autoOpenEditorOnDoubleClick` (default: `true`)
+
+Credentials are stored locally via JetBrains Password Safe.
 
 ## Screenshots
 
-### Dashboard
+### Connection and Process Overview
 ![SuperVisor dashboard](./assets/dashboard-overview.png)
 
-### Incident Details
+### Process and Incident Details
 ![SuperVisor incident details](./assets/incident-details.png)
 
-### Alert Workflows
+### Actions and Workflow
 ![SuperVisor alert workflows](./assets/alert-workflows.png)
 
-### Operations Control
+### Operational Control
 ![SuperVisor operations control](./assets/ops-control.png)
 
 ## Documentation
 
-- [Product Docs](../docs.html)
-- [Installation Section](../docs.html#install)
-- [Quick Start Section](../docs.html#config)
-- [Alerts Section](../docs.html#alerts)
-- [Integrations Section](../docs.html#integrations)
-- [FAQ Section](../docs.html#faq)
+- [Docs (Live)](https://get-supervisor.netlify.app/docs)
+- [Local Docs Page](../docs.html)
+
+## Support
+
+- `goldentap.kz@gmail.com`
 
 ## Legal
 
