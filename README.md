@@ -38,7 +38,6 @@ Credentials are stored locally via JetBrains Password Safe.
 
 ![SuperVisor alert workflows](./assets/alert-workflows.png)
 
-![SuperVisor operations control](./assets/ops-control.png)
 
 ## Documentation
 
